@@ -1,0 +1,44 @@
+.cajon-1 {
+    background-color: #93B5C9;
+    position: relative;
+    width: 100%;
+    height: 100px;
+
+}
+
+.cajon-2 {
+    background-color: #AB2849;
+    position: relative;
+    width: 100%;
+    height: 150px;
+   
+}
+
+
+
+.cajon-31 {
+
+    background-color: #AB2849;
+     
+    margin: 10px 10px 10px 10px;
+    width: 80%;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 19%;
+    bottom: 0;
+    right: 0;
+} 
+
+
+.cajon-4 {
+    background-color: #AB2849;
+    width: 95%;
+    height: 80px;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}

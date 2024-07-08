@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Core Sans N';
+    src: url(/fuente/Core\ Sans\ N\ 65\ Bold.ttf) format('truetype');
+  font-style: bold;
+  font-weight: bold;
+}
+
+
+.pill {
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    width: 10%;
+    height: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+#t1{
+    font-size: 30px;
+    color: #000000;
+    margin-top: 40px;
+    font-family: 'Core Sans N';
+    font-weight: bold;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+ 
+    padding-top: 0%;
+    text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+
+}
+
+#t2{
+    font-size: 130px;
+    color: #b88940;
+    font-family: 'Core Sans N';
+    font-weight: bold;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+    }
+
+#t3{
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Core Sans N';
+    font-weight: bold;
+    margin-top: 5px%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+}
+
+#t4{
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Core Sans N';
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+}
+
+#t5{
+    font-size: 80px;
+    color: #b88940;
+    font-family: 'Core Sans N';
+    font-weight: bold;
+    margin-top: 250px;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+    }
+
+
+.ti-1{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+  
+     }
+
+.ti-1-2{
+  height: auto;
+  margin-bottom: 6vh;
+  text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+
+}     
+
+.cajon-3 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+} 
+
+.cajon-31 {
+    
+    background-color: #ffbd59;
+    margin: 20px 20px 20px 20px;
+    width: 90vw;
+    height: 50px;
+    display: flex;      
+} 
+
+.cajon-3-2 {
+position: absolute;
+flex-direction: row;
+display: flex;
+justify-content: center;
+width: 55%;
+margin: 5px;
+
+
+}
+
+.mini-1 {
+flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 5px;
+}
+
+img{
+    max-width:100%;
+    box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+    overflow: hidden;
+}
+
+/* aqui aplico los media queris para que se adapte a las 
+ditntias pantallas , no se si esta bien pero es la unica 
+manera que lo pude hacer 
+por favor si estoy errado digame profesor */
+
+@media only screen and (max-width: 1080px) {
+
+    .cajon-3-2 {
+        position: absolute;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        width: 88%;
+        margin: 5px;
+        
+        
+        }
+        
+        .mini-1 {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        }
+        
+        img{
+            max-width:100%;
+            ;
+        }
+    
+}
+
+
+
+@media only screen and (max-width: 820px) {
+
+    .cajon-3-2 {
+        position: absolute;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        width: 88%;
+        margin: 5px;
+        
+        
+        }
+        
+        .mini-1 {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        }
+        
+        img{
+            max-width:100%;
+            ;
+        }
+    
+}
+
+
+
+
+/* medida para un google pixel 7*/ /* yo tengo un telefon de eso por eso elegiu la media */
+@media only screen and (max-width: 412px) {
+
+
+    .cajon-3-2 {
+        position: absolute;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: 88%;
+        margin: 5px;
+        top: 50px;
+        
+        }
+        
+        .mini-1 {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        }
+        
+        img{
+            max-width:100%;
+            ;
+        }
+   
+        .ti-1- {
+            position: absolute;
+            top: 1450px;
+            text-align: center;
+            text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+        }
+
+        .ti-2-{
+            position: absolute;
+            top: 1900px;
+            text-align: center;
+            text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+
+        }
+
+        .ti-1-2{
+            height: auto;
+            margin-bottom: 30px;
+            text-align: center
+            text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+          } 
+
+}
