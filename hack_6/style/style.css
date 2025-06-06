@@ -1,0 +1,321 @@
+
+
+
+.cabezera{
+  display: flex;
+  flex-direction: row;  
+  position: absolute; /* Fija el elemento en la ventana */
+  top:-10vh;          /* Lo ancla en la parte superior */
+  left: 0;         /* Lo ancla al lado izquierdo */
+  width: 100%;     /* Ocupa todo el ancho de la pantalla */  
+  height: 50vh;
+  background-image: url("./2.png");
+  background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+
+}
+
+.izq{
+  top:30%;
+ position: absolute;
+ padding-left: 10vw;
+
+}
+.button {
+   
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:300px;
+      font-family: "Inter", sans-serif;
+     font-size: 1.5vh;
+     padding: 1vh;
+     padding-left: 2.5vh;
+     padding-right: 2.5vh;
+     font-weight: 400;
+  }
+  .escri-uno p{
+    margin-top: 10px;
+     font-family: "Inter", sans-serif;
+    font-size: 3.5vh;
+    font-weight: 700;
+    letter-spacing: 1px
+
+  }
+
+  .escri-dos{
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+      font-size: 1.5vh;
+    font-weight: 400;
+    
+  }
+
+    .escri-dos p{
+    margin-top: 5px;
+    
+    
+  }
+
+
+  .der{
+    top:32%;
+    position: absolute;
+    padding-right: 10vw;
+  }
+
+
+  .circulo{
+    width: 18vh;
+    height: 18vh;
+    background: #00BF63;
+    position: relative;
+    left: 70vw;
+    border-radius: 100%;
+    text-align: center;
+     display: flex;
+    flex-direction: column;  /* Apila los <p> verticalmente */
+    justify-content: center;  /* Centra verticalmente */
+    align-items: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 4vh;
+    font-weight: 800;
+
+ }
+
+ .producto{
+  clear: both;
+  position: relative;
+  margin-top: 43vh;
+ 
+ }
+
+/*tarjeta*/
+ .contenedor-tarjetas {
+    display: flex;           /* Activa Flexbox */
+    flex-wrap: wrap;         /* Envuelve las tarjetas si no caben */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 20px;              /* Espacio entre tarjetas */
+    padding: 20px;          /* Margen interno para el contenedor */
+}
+
+.tarjeta {
+    width: auto;           /* Ancho fijo para cada tarjeta */
+    overflow: hidden;       /* Recorta la imagen si sobresale */
+    background: white;      /* Fondo blanco (opcional) */
+}
+
+.tarjeta img {
+    width: 100%;           /* La imagen ocupa el 100% del ancho */
+    height: 40vh;         /* Altura fija para todas las imágenes */
+    object-fit: cover;     /* Ajusta la imagen sin deformarse */
+    display: block;        /* Elimina espacio fantasma debajo */
+    background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+}
+
+.bot{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+
+}
+
+.descripcion-1{
+    padding: 5px;         /* Espacio interno del texto */
+    text-align: center;    /* Centra el texto */
+    margin: 0;             /* Elimina márgenes por defecto */
+    font-family: Arial, sans-serif; /* Fuente opcional */ 
+       
+    align-items: center;
+    text-align: center;
+    text-decoration: line-through red;
+}
+.descripcion {
+    padding: 5px;         /* Espacio interno del texto */
+    text-align: center;    /* Centra el texto */
+    margin: 0;             /* Elimina márgenes por defecto */
+    font-family: Arial, sans-serif; /* Fuente opcional */ 
+    font-weight: 700;   
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer{
+  clear: both;
+display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.foot{
+
+    
+    
+    height: 130Px;
+    background: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;  
+    margin: 15px 15px 0px 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Arimo", sans-serif; 
+    color: #EEEEEE;
+}
+
+.button- {
+   
+    top:50%;
+    background-color:#00BF63;
+    color: #fff;
+    border:none;
+    border-radius:300px;
+      font-family: "Inter", sans-serif;
+     font-size: 2.5vh;
+     padding: 1vh;
+     padding-left: 2.5vh;
+     padding-right: 2.5vh;
+     margin-left: 5vh;
+     font-weight: 400;
+  }
+
+/*TELEFONO VISTA*/
+
+  @media only screen and (max-width: 600px){
+
+
+    .button {
+   
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:300px;
+      font-family: "Inter", sans-serif;
+     font-size: 1.5vh;
+     padding: 1vh;
+     padding-left: 2.5vh;
+     padding-right: 2.5vh;
+     font-weight: 400;
+  }
+  .escri-uno p{
+    margin-top: 5px;
+     font-family: "Inter", sans-serif;
+    font-size: 3vh;
+    font-weight: 700;
+    letter-spacing: 1px
+
+  }
+
+  .escri-dos{
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+      font-size: 1.5vh;
+    font-weight: 400;
+    
+  }
+
+    .escri-dos p{
+    margin-top: 5px;
+    
+    
+  }
+
+  .cabezera{
+  display: flex;
+  flex-direction: row;  
+  position: absolute; /* Fija el elemento en la ventana */
+  top:-14vh;          /* Lo ancla en la parte superior */
+  left: 0;         /* Lo ancla al lado izquierdo */
+  width: 100%;     /* Ocupa todo el ancho de la pantalla */  
+  height: 50vh;
+  background-image: url("./2.png");
+  background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+
+
+
+ }
+
+     .circulo{
+    width: 10vh;
+    height: 10vh;
+    background: #00BF63;
+    position: relative;
+    left: 70vw;
+    border-radius: 100%;
+    text-align: center;
+     display: flex;
+    flex-direction: column;  /* Apila los <p> verticalmente */
+    justify-content: center;  /* Centra verticalmente */
+    align-items: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 2vh;
+    font-weight: 800;
+
+
+}
+
+ .producto{
+  clear: both;
+  position: relative;
+  margin-top: 25vh;
+ 
+ }
+
+
+
+ .foot{
+
+    
+    
+    height: 80px;
+    background: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;  
+    margin: 5px 5px 0px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Arimo", sans-serif; 
+    color: #EEEEEE;
+}
+
+.button- {
+   
+    top:50%;
+    background-color:#00BF63;
+    color: #fff;
+    border:none;
+    border-radius:300px;
+      font-family: "Inter", sans-serif;
+     font-size: 2vh;
+     padding: 1vh;
+     padding-left: 2.5vh;
+     padding-right: 2.5vh;
+     margin-left: 5vh;
+     font-weight: 400;
+  }
+
+
+
+
+
+
+
+
+
+  }

@@ -1,0 +1,32 @@
+.block1{
+background: #93B5C9;
+
+height: 150px;
+}
+
+.block2{
+    background: #AB2849;
+    height: 300px;
+}
+
+
+
+.mini1{
+   
+   background: #AB2849;
+    height: 100px;
+    width: 80%;
+    margin:10px;
+    margin-left: auto;
+    margin-right: 0;
+}
+.mini2{
+   
+   background: #AB2849;
+    height: 100px;
+    width: 95%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+

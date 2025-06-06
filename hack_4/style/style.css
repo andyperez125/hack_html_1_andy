@@ -1,0 +1,143 @@
+
+
+.vacio{
+    height: 50px;
+}
+
+.linea{
+    height: 8px;
+    width: 100px;
+    background: black;
+     margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    }
+
+.oferta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Ruda", sans-serif;
+    letter-spacing: 5px;
+}
+
+.sale{
+    margin-top: 1px;
+    font-size: 120px;
+    font-weight: 850;
+    color: #B88940;
+    font-family: "Ruda", sans-serif;
+    letter-spacing: 10px;
+}
+
+.cin{
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Ruda", sans-serif;
+    letter-spacing: 4px;
+}
+
+.lore{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: "Ruda", sans-serif;
+    font-weight: 800;
+    letter-spacing: 3px;
+
+}
+
+.medio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+   
+
+    
+ 
+
+}
+
+
+.line{
+    position: absolute;
+}
+
+.fraja{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin: 10vh;
+
+
+
+}
+
+.fran{
+    
+height: 25px ;
+width: 96vw;
+background: #FFBD59;
+margin-top: 27px;
+}
+
+
+.image{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+.ima_tex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ruda", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+
+
+}
+
+.ima{
+    width: 200px;
+    height: 270px;
+    margin: 5px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.your{
+    margin-top: 10vh;
+    font-size: 50px;
+    font-weight: 900;
+    color: #B88940;
+    font-family: "Ruda", sans-serif;
+    letter-spacing: 5px;
+}
+
+.lora{
+    
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Ruda", sans-serif;
+    ;
+}
+
+
